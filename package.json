@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && typedoc",
+    "start": "node ./dist/index.js",
+    "start:dev": "yarn run build && nodemon",
+    "doc": "typedoc"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/node": "^16.4.9",
+    "@types/restify": "^8.5.2",
+    "nodemon": "^2.0.12",
+    "restify": "^8.5.1",
+    "typedoc-theme-dark": "^0.0.5",
+    "typescript": "^4.3.5"
+  }
+}

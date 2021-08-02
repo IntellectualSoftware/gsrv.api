@@ -1,0 +1,8 @@
+{
+  "entryPoints": [
+    "src/index.ts",
+    "src/doc/index.ts"
+  ],
+  "out": "docs",
+  "theme": "./node_modules/typedoc-theme-dark/dist/dark/"
+}
